@@ -1,0 +1,588 @@
+{
+  "brand": {
+    "name": "VietinBank",
+    "fullName": "Ngân hàng TMCP Công Thương Việt Nam",
+    "kioskTitle": "Kiosk Tương Tác Khách Hàng Tại Quầy",
+    "slogan": "Nâng giá trị cuộc sống",
+    "logoUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/Logo%20VietinBank.png",
+    "hotline": "1900 558 868",
+    "supportOfficer": {
+      "name": "Lưu Thuần Nhã",
+      "title": "Chuyên viên tư vấn",
+      "phone": "0939594411",
+      "tel": "0939594411"
+    }
+  },
+  "navigation": [
+    {
+      "id": "faq",
+      "label": "Giải đáp thắc mắc",
+      "title": "1. Giải đáp thắc mắc khách hàng",
+      "desc": "Hướng dẫn chi tiết iPay, mật khẩu, đóng thẻ, sinh trắc học và CCCD",
+      "icon": "HelpCircle"
+    },
+    {
+      "id": "download_app",
+      "label": "Tải App iPay",
+      "title": "2. Tải App VietinBank iPay",
+      "desc": "Cài đặt ứng dụng ngân hàng số iPay trên iOS và Android",
+      "icon": "Smartphone"
+    },
+    {
+      "id": "game",
+      "label": "Thử thách Game",
+      "title": "3. Thử thách Game nhận quà",
+      "desc": "Chơi game vui vẻ trong lúc chờ - nhận ngay Voucher 2 lít xăng",
+      "icon": "Gamepad2"
+    },
+    {
+      "id": "deposit",
+      "label": "Tính lãi tiền gửi",
+      "title": "4. Công cụ tính lãi tiền gửi",
+      "desc": "Ước tính chính xác tiền lãi theo số tiền gửi, kỳ hạn và biểu lãi suất",
+      "icon": "PiggyBank"
+    },
+    {
+      "id": "loan",
+      "label": "Lịch trả nợ vay",
+      "title": "5. Lịch trả nợ khoản vay",
+      "desc": "Bảng tính chi tiết trả gốc đều, lãi theo dư nợ giảm dần",
+      "icon": "Calculator"
+    },
+    {
+      "id": "products",
+      "label": "Sản phẩm nổi bật",
+      "title": "6. Sản phẩm dịch vụ nổi bật",
+      "desc": "Khám phá các gói tài khoản, POS, ưu đãi và tài sản bảo đảm",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "branches",
+      "label": "Điểm giao dịch",
+      "title": "7. Mạng lưới điểm giao dịch",
+      "desc": "Tra cứu địa chỉ, hotline, bản đồ và giờ làm việc chi nhánh/PGD",
+      "icon": "MapPin"
+    }
+  ],
+  "faqSection": {
+    "question": "Anh/chị đang gặp khó khăn với nội dung nào?",
+    "promptText": "Quý khách vui lòng chọn nội dung cần hỗ trợ bên dưới để xem các bước hướng dẫn cụ thể:",
+    "feedbackQuestion": "Quý khách đã thực hiện ổn hay chưa?",
+    "feedbackPositive": "Tôi đã làm được",
+    "feedbackNegative": "Chưa thực hiện được",
+    "feedbackNegativeResponse": "Cảm ơn Quý khách đã phản hồi. Quý khách có thể liên hệ Chuyên viên tư vấn Lưu Thuần Nhã – số điện thoại: 0939594411 để hỗ trợ trực tiếp. Em sẽ cố gắng cải thiện để phục vụ Quý khách tốt hơn!",
+    "faqOfficer": {
+      "name": "Lưu Thuần Nhã",
+      "title": "Chuyên viên tư vấn",
+      "phone": "0939594411",
+      "tel": "0939594411"
+    },
+    "backToMenuText": "Quay lại danh mục hỗ trợ",
+    "endConversationText": "Kết thúc cuộc trò chuyện",
+    "endConversationResponse": "Cảm ơn Quý khách đã sử dụng dịch vụ của VietinBank. Chúc Quý khách một ngày tốt lành!",
+    "topics": [
+      {
+        "id": "forgot_password",
+        "title": "1. Hướng dẫn quên mật khẩu Ipay",
+        "shortTitle": "Quên mật khẩu iPay",
+        "desc": "Lấy lại mật khẩu đăng nhập VietinBank iPay nhanh chóng bằng eKYC và OTP.",
+        "icon": "KeyRound",
+        "videoUrl": "https://www.youtube.com/watch?v=86r0pxPOzbs",
+        "videoYoutubeId": "86r0pxPOzbs",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Chọn Quên mật khẩu",
+            "content": "Ở màn hình đăng nhập ứng dụng VietinBank iPay, chọn tính năng 'Quên mật khẩu'.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.1.png"
+          },
+          {
+            "step": 2,
+            "title": "Nhập thông tin xác thực",
+            "content": "Nhập tên đăng nhập và số điện thoại đăng ký sau đó bấm 'Tiếp tục'.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.2.png"
+          },
+          {
+            "step": 3,
+            "title": "Xác nhận mã OTP",
+            "content": "Nhập mã OTP được gửi về tin nhắn SMS của số điện thoại đăng ký, sau đó bấm 'Tiếp tục'.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.3.png"
+          },
+          {
+            "step": 4,
+            "title": "Xác thực khuôn mặt",
+            "content": "Xác thực khuôn mặt theo yêu cầu trên màn hình. Sau khi hoàn thành, hệ thống iPay sẽ gửi mật khẩu mới về tin nhắn (SMS). Bấm đăng nhập iPay để tiếp tục.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.4.png"
+          },
+          {
+            "step": 5,
+            "title": "Đổi mật khẩu mới",
+            "content": "Nhập mật khẩu theo yêu cầu:\n- Mật khẩu hiện tại: Nhập theo mật khẩu được gửi về tin nhắn (SMS)\n- Mật khẩu mới: Là mật khẩu mà khách hàng cần đổi\nBấm 'Tiếp tục'.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.5.png"
+          },
+          {
+            "step": 6,
+            "title": "Quét khuôn mặt hoàn tất",
+            "content": "Thực hiện quét khuôn mặt để xác nhận đổi mật khẩu thành công và truy cập tài khoản.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/1.6.png"
+          }
+        ]
+      },
+      {
+        "id": "close_card",
+        "title": "2. Hướng dẫn đóng thẻ",
+        "shortTitle": "Đóng thẻ ATM / Visa",
+        "desc": "Chủ động tạm khóa hoặc đóng thẻ ghi nợ / thẻ tín dụng ngay trên ứng dụng iPay.",
+        "icon": "CreditCard",
+        "videoUrl": "https://www.youtube.com/watch?v=acdT3KxET40",
+        "videoYoutubeId": "acdT3KxET40",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Đăng nhập VietinBank iPay",
+            "content": "Đăng nhập vào App VietinBank iPay trên điện thoại của Quý khách.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.1.png"
+          },
+          {
+            "step": 2,
+            "title": "Vào danh sách thẻ",
+            "content": "Tại trang chủ, vào mục 'Dịch vụ thẻ' hoặc danh sách thẻ đang quản lý.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.2.png"
+          },
+          {
+            "step": 3,
+            "title": "Chọn thẻ cần đóng",
+            "content": "Xem đúng thẻ cần đóng, bấm vào phần 'Xem thêm' / 'Cài đặt thẻ'.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.3.png"
+          },
+          {
+            "step": 4,
+            "title": "Chọn tính năng đóng thẻ",
+            "content": "Chọn mục 'Khóa thẻ' hoặc 'Đóng thẻ' theo nhu cầu sử dụng.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.4.png"
+          },
+          {
+            "step": 5,
+            "title": "Nhập mã xác thực OTP",
+            "content": "Nhập mã OTP (hoặc xác thực Soft OTP) được gửi về ứng dụng / SMS.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.5.png"
+          },
+          {
+            "step": 6,
+            "title": "Xác nhận đóng thẻ thành công",
+            "content": "Xác nhận OTP để hệ thống ghi nhận tình trạng thẻ đã được đóng an toàn.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/2.6.png"
+          }
+        ]
+      },
+      {
+        "id": "cccd_verification",
+        "title": "3. Xác thực CCCD gắn chip",
+        "shortTitle": "Xác thực CCCD gắn chip",
+        "desc": "Cập nhật dữ liệu dân cư và đọc thẻ căn cước gắn chip qua giao tiếp tầm ngắn NFC.",
+        "icon": "ShieldCheck",
+        "videoUrl": "https://www.youtube.com/watch?v=9yYn3SbMT9A",
+        "videoYoutubeId": "9yYn3SbMT9A",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Mở tính năng xác thực",
+            "content": "Đăng nhập App VietinBank iPay, chọn mục 'Cập nhật sinh trắc học / CCCD gắn chip'.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.1.png"
+          },
+          {
+            "step": 2,
+            "title": "Bắt đầu chụp giấy tờ",
+            "content": "Click vào nút 'Bắt đầu chụp' và cấp quyền truy cập máy ảnh.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.2.png"
+          },
+          {
+            "step": 3,
+            "title": "Chụp mặt trước CCCD",
+            "content": "Đặt mặt trước Căn cước công dân vừa vặn trong khung hình, chụp rõ nét không loá sáng.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.3.png"
+          },
+          {
+            "step": 4,
+            "title": "Chụp mặt sau CCCD",
+            "content": "Chụp mặt sau CCCD để hệ thống nhận diện mã MRZ và thông tin con chip.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.4.png"
+          },
+          {
+            "step": 5,
+            "title": "Đọc chip NFC trên điện thoại",
+            "content": "Bật tính năng NFC trên điện thoại. Áp mặt trước CCCD vào vị trí anten NFC ở mặt lưng điện thoại và giữ yên 3-5 giây để đọc dữ liệu.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.7.png"
+          },
+          {
+            "step": 6,
+            "title": "Hoàn tất xác thực",
+            "content": "Hệ thống kiểm tra tính hợp lệ của dữ liệu Bộ Công An và thông báo thành công.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.8.png"
+          }
+        ]
+      },
+      {
+        "id": "biometric_update",
+        "title": "4. Hướng dẫn cập nhật sinh trắc học",
+        "shortTitle": "Cập nhật sinh trắc học (QĐ 2345)",
+        "desc": "Bảo đảm hạn mức giao dịch trên 10 triệu đồng theo Quyết định 2345/QĐ-NHNN.",
+        "icon": "ScanFace",
+        "videoUrl": "https://www.youtube.com/watch?v=9yYn3SbMT9A",
+        "videoYoutubeId": "9yYn3SbMT9A",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Đăng nhập VietinBank iPay",
+            "content": "Mở ứng dụng và đăng nhập tài khoản VietinBank iPay cá nhân.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.1.png"
+          },
+          {
+            "step": 2,
+            "title": "Chọn bắt đầu chụp",
+            "content": "Click vào nút 'Bắt đầu chụp' để tiến hành thu thập dữ liệu định danh điện tử.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.2.png"
+          },
+          {
+            "step": 3,
+            "title": "Chụp mặt trước CCCD",
+            "content": "Chụp mặt trước căn cước công dân gắn chip rõ nét.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.3.png"
+          },
+          {
+            "step": 4,
+            "title": "Chụp mặt sau CCCD",
+            "content": "Chụp mặt sau căn cước công dân, chú ý không để ngón tay che khuất thông tin.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.4.png"
+          },
+          {
+            "step": 5,
+            "title": "Xác nhận hướng dẫn khuôn mặt",
+            "content": "Click vào nút 'Đã hiểu' tại màn hình chỉ dẫn tư thế khuôn mặt.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.5.png"
+          },
+          {
+            "step": 6,
+            "title": "Thu nhận sinh trắc học khuôn mặt",
+            "content": "Đưa gương mặt vào khung hình tròn, thực hiện nghiêng nhẹ hoặc chớp mắt theo hướng dẫn.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.6.png"
+          },
+          {
+            "step": 7,
+            "title": "Đọc thẻ NFC CCCD",
+            "content": "Đặt mặt trước CCCD ngay mặt sau điện thoại để đọc thẻ NFC chip.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.7.png"
+          },
+          {
+            "step": 8,
+            "title": "Hoàn tất cập nhật",
+            "content": "Bấm 'Tiếp tục' để lưu thông tin sinh trắc học đã khớp nối với CSDL Quốc gia.",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/3.8.png"
+          }
+        ]
+      }
+    ]
+  },
+  "appDownload": {
+    "title": "Tải Ngay Ứng Dụng VietinBank iPay Mobile",
+    "subtitle": "Ngân hàng số toàn diện - Chuyển khoản 24/7 không phí, gửi tiết kiệm nhận thêm lãi suất, quản lý thẻ thông minh",
+    "ios": {
+      "storeName": "App Store (iPhone/iPad)",
+      "url": "https://apps.apple.com/vn/app/vietinbank-ipay/id689963454?l=vi",
+      "qrUrl": "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https%3A%2F%2Fapps.apple.com%2Fvn%2Fapp%2Fvietinbank-ipay%2Fid689963454%3Fl%3Dvi"
+    },
+    "android": {
+      "storeName": "Google Play (Android)",
+      "url": "https://play.google.com/store/apps/details?id=com.vietinbank.ipay",
+      "qrUrl": "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.vietinbank.ipay"
+    },
+    "features": [
+      {
+        "title": "Miễn 100% phí dịch vụ",
+        "desc": "Miễn phí chuyển khoản liên ngân hàng 24/7, duy trì tài khoản, thông báo OTT."
+      },
+      {
+        "title": "Cộng thêm lãi suất tiết kiệm",
+        "desc": "Gửi tiết kiệm online trên iPay nhận lãi suất ưu đãi cao hơn tại quầy."
+      },
+      {
+        "title": "Mở tài khoản số đẹp theo yêu cầu",
+        "desc": "Tự chọn tài khoản theo số điện thoại, ngày sinh, phong thủy may mắn."
+      },
+      {
+        "title": "Hệ sinh thái thanh toán phong phú",
+        "desc": "Thanh toán hóa đơn điện nước, vé máy bay, taxi, đặt phòng khách sạn chỉ 1 chạm."
+      }
+    ]
+  },
+  "game": {
+    "title": "Chờ vui – Chơi hay – Nhận quà liền tay",
+    "targetScore": 20,
+    "rewardText": "Voucher 2 lít xăng",
+    "description": "Vượt qua 20 thử thách để nhận voucher 2 lít xăng",
+    "instructions": "Chạm màn hình hoặc nhấn phím Space để nhân vật bay lên",
+    "winTitle": "Chúc mừng Quý khách!",
+    "winSubtitle": "Bạn đã vượt qua 20 thử thách và đủ điều kiện nhận voucher 2 lít xăng.",
+    "voucherGuide": "Vui lòng chụp màn hình hoặc đưa mã này cho nhân viên để nhận quà.",
+    "encouragements": {
+      "under5": "Khởi động nhẹ nhàng!",
+      "5to9": "Tốt lắm, tiếp tục nào!",
+      "10to14": "Một nửa chặng đường rồi!",
+      "15to19": "Sắp nhận quà rồi!",
+      "at20": "Xuất sắc!"
+    },
+    "loseTitle": "Rất tiếc!",
+    "loseEncouragement": "Chỉ còn một chút nữa thôi, hãy thử lại nhé!"
+  },
+  "depositCalculator": {
+    "title": "Công Cụ Tính Lãi Tiền Gửi Tiết Kiệm",
+    "subtitle": "Sản phẩm tiền gửi tiết kiệm thông thường trả lãi sau",
+    "minAmount": 1000000,
+    "errorAmount": "Vui lòng nhập số tiền gửi hợp lệ (tối thiểu 1.000.000 VND).",
+    "errorTerm": "Vui lòng chọn kỳ hạn gửi.",
+    "errorRate": "Vui lòng nhập lãi suất hợp lệ (từ 0% đến 15%/năm).",
+    "videoGuideUrl": "https://www.tiktok.com/@nguyentrangtkneu/video/7202579533806062875?is_from_webapp=1&sender_device=pc&web_id=7603681770291086866",
+    "termOptions": [
+      { "months": 1, "label": "1 Tháng", "rate": 2.2 },
+      { "months": 2, "label": "2 Tháng", "rate": 2.2 },
+      { "months": 3, "label": "3 Tháng", "rate": 2.5 },
+      { "months": 6, "label": "6 Tháng", "rate": 3.5 },
+      { "months": 9, "label": "9 Tháng", "rate": 3.5 },
+      { "months": 12, "label": "12 Tháng", "rate": 5.0 },
+      { "months": 18, "label": "18 Tháng", "rate": 5.2 },
+      { "months": 24, "label": "24 Tháng", "rate": 5.3 },
+      { "months": 36, "label": "36 Tháng", "rate": 5.3 }
+    ]
+  },
+  "loanCalculator": {
+    "title": "Bảng Tính Lịch Trả Nợ Khoản Vay",
+    "subtitle": "Phương thức trả gốc đều hàng kỳ, lãi tính trên dư nợ giảm dần",
+    "principles": [
+      "Gốc trả mỗi kỳ = Số tiền vay / Tổng số kỳ trả nợ",
+      "Lãi kỳ hiện tại = Dư nợ đầu kỳ × Lãi suất kỳ",
+      "Tổng tiền trả kỳ = Gốc kỳ + Lãi kỳ",
+      "Dư nợ cuối kỳ = Dư nợ đầu kỳ - Gốc đã trả trong kỳ",
+      "Hệ thống tự làm tròn đến 1.000 đồng, chênh lệch được điều chỉnh vào kỳ trả nợ cuối cùng"
+    ],
+    "cycles": [
+      { "id": "monthly", "name": "Hằng tháng", "divider": 12, "stepMonths": 1 },
+      { "id": "quarterly", "name": "Hằng quý (3 tháng)", "divider": 4, "stepMonths": 3 },
+      { "id": "semiannual", "name": "6 tháng", "divider": 2, "stepMonths": 6 },
+      { "id": "annual", "name": "Hằng năm", "divider": 1, "stepMonths": 12 }
+    ]
+  },
+  "featuredProducts": {
+    "title": "Sản Phẩm & Dịch Vụ Nổi Bật",
+    "description": "Khám phá các sản phẩm, ưu đãi và tiện ích VietinBank đang được giới thiệu tại chi nhánh.",
+    "interestPopup": {
+      "title": "VietinBank Luôn Sẵn Sàng Phục Vụ",
+      "message": "Cảm ơn Quý khách đã quan tâm đến sản phẩm/dịch vụ này. Quý khách vui lòng liên hệ cán bộ VietinBank tại quầy để được tư vấn chi tiết.",
+      "contactPerson": "Hoặc liên hệ Chuyên viên tư vấn Lưu Thuần Nhã – 0939594411."
+    },
+    "categories": [
+      { "id": "all", "label": "Tất cả" },
+      { "id": "individual", "label": "Cá nhân" },
+      { "id": "business_household", "label": "Hộ kinh doanh" },
+      { "id": "corporate", "label": "Doanh nghiệp" },
+      { "id": "promotions", "label": "Ưu đãi" },
+      { "id": "auction", "label": "Bán đấu giá TSBD" }
+    ],
+    "items": [
+      {
+        "id": "household_acc",
+        "category": "business_household",
+        "categoryLabel": "Dành cho hộ kinh doanh",
+        "title": "Mở tài khoản hộ kinh doanh",
+        "tag": "Nổi bật",
+        "desc": "Giải pháp thanh toán QR theo mã định danh VietinBank, quản lý doanh thu minh bạch, miễn phí chuyển tiền và tặng biển QR trưng bày tại cửa hàng.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/M%E1%BB%9F%20t%C3%A0i%20kho%E1%BA%A3n%20h%E1%BB%99%20kinh%20doanh.png",
+        "benefits": ["Miễn phí mở tài khoản theo yêu cầu", "Trang bị mã VietQR độc quyền", "Hạn mức giao dịch tối ưu"]
+      },
+      {
+        "id": "pos_cashback",
+        "category": "individual",
+        "categoryLabel": "Dành cho khách hàng cá nhân",
+        "title": "Chạm POS rút tiền",
+        "tag": "Tiện ích mới",
+        "desc": "Trải nghiệm rút tiền mặt bằng công nghệ chạm không tiếp xúc tại các điểm POS đối tác liên kết của VietinBank, nhanh chóng, an toàn và bảo mật cao.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/Ch%E1%BA%A1m%20POS%20r%C3%BAt%20ti%E1%BB%81n.png",
+        "benefits": ["Rút tiền nhanh không cần thẻ vật lý", "Bảo mật cao với chip EMV", "Mạng lưới đối tác phủ rộng"]
+      },
+      {
+        "id": "collection_service",
+        "category": "corporate",
+        "categoryLabel": "Dành cho khách hàng doanh nghiệp",
+        "title": "Sản phẩm thu hộ KHDN",
+        "tag": "Giải pháp số",
+        "desc": "Tự động hóa toàn bộ luồng thu học phí, viện phí, cước dịch vụ và công nợ đối tác thông qua cổng kết nối API điện tử đa kênh VietinBank.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/Thu%20h%E1%BB%99%20KHDN.png",
+        "benefits": ["Báo cáo thời gian thực Real-time", "Đối soát tự động qua API", "Giảm 90% chi phí vận hành thu tiền"]
+      },
+      {
+        "id": "special_promotions",
+        "category": "promotions",
+        "categoryLabel": "Ưu đãi đang triển khai",
+        "title": "Gói ưu đãi tài khoản số VietinBank iPay",
+        "tag": "Khuyến mãi hot",
+        "desc": "Chương trình ưu đãi lãi suất tiết kiệm online cộng thêm 0.3%/năm, hoàn tiền chi tiêu thẻ tín dụng quốc tế lên đến 1.500.000 VNĐ.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/M%E1%BB%9F%20t%C3%A0i%20kho%E1%BA%A3n%20h%E1%BB%99%20kinh%20doanh.png",
+        "benefits": ["Cộng thêm lãi suất tiết kiệm trực tuyến", "Miễn phí duy trì trọn đời", "Quay số trúng quà tặng giá trị cao"]
+      },
+      {
+        "id": "collateral_auction",
+        "category": "auction",
+        "categoryLabel": "Thông tin bán đấu giá tài sản bảo đảm",
+        "title": "Bán đấu giá tài sản bảo đảm",
+        "tag": "Pháp lý minh bạch",
+        "desc": "Danh mục bất động sản, phương tiện vận tải và máy móc thiết bị thế chấp được bán đấu giá công khai, pháp lý hoàn chỉnh, giá khởi điểm hấp dẫn.",
+        "posterUrl": "https://raw.githubusercontent.com/giadinhbanker/anh-super-app-bac-phu-tho/main/T%C3%A0i%20s%E1%BA%A3n%20b%E1%BA%A3o%20%C4%91%E1%BA%A3m%201.jpg",
+        "benefits": ["Pháp lý rõ ràng, an toàn tuyệt đối", "Hỗ trợ gói vay mua tài sản ưu đãi", "Thủ tục sang tên nhanh chóng"]
+      }
+    ]
+  },
+  "branchLocator": {
+    "title": "Mạng Lưới Chi Nhánh & Phòng Giao Dịch",
+    "subtitle": "Khách hàng chọn tên chi nhánh trong danh sách 155 chi nhánh của VietinBank",
+    "workingHours": {
+      "weekdays": "Thứ 2 đến thứ 6:\nSáng từ 07:30 AM Đến 11:30 AM\nChiều từ 01:00 PM Đến 04:30 PM",
+      "weekend": "Thứ 7 - Chủ nhật: Nghỉ giao dịch"
+    },
+    "branches": [
+      {
+        "id": "kcn_trang_bang",
+        "name": "Chi nhánh KCN Trảng Bàng",
+        "province": "Tây Ninh",
+        "offices": [
+          {
+            "stt": 1,
+            "name": "Hội sở CN KCN Trảng Bàng",
+            "type": "Chi nhánh",
+            "address": "1564A1, Quốc lộ 22, Khu phố An Bình, Phường An Tịnh, Tây Ninh",
+            "phone": "0276.3896389",
+            "tel": "02763896389",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/Hoi-so.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/esjTuKpymixS23Xn9"
+          },
+          {
+            "stt": 2,
+            "name": "PGD Phước Đông - CN KCN Trảng Bàng",
+            "type": "Phòng giao dịch",
+            "address": "Số 42, Khu phố Phước Đức B, Phường Gia Lộc, Tây Ninh",
+            "phone": "0276.3534252",
+            "tel": "02763534252",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/PGD-Phuoc-Dong.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/pJ72JQHagVdXZdEH8"
+          },
+          {
+            "stt": 3,
+            "name": "PGD Phước Trạch - CN KCN Trảng Bàng",
+            "type": "Phòng giao dịch",
+            "address": "Số 147, Ấp Bàu Vừng, Xã Phước Thạnh, Tây Ninh",
+            "phone": "0276.3896389",
+            "tel": "02763896389",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/PGD-Phuoc-Trach.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/RHestArPMTbmZ3B7A"
+          },
+          {
+            "stt": 4,
+            "name": "PGD Trảng Bàng - CN KCN Trảng Bàng",
+            "type": "Phòng giao dịch",
+            "address": "Số 236, QL22, Khu phố Lộc Du, Phường Trảng Bàng, Tây Ninh",
+            "phone": "0276.3880144",
+            "tel": "02763880144",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/PGD-Trang-Bang.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/skkUhLc3XBNnEqsu7"
+          }
+        ]
+      },
+      {
+        "id": "bac_da_nang",
+        "name": "Chi nhánh Bắc Đà Nẵng",
+        "province": "Đà Nẵng",
+        "offices": [
+          {
+            "stt": 1,
+            "name": "Hội sở CN Bắc Đà Nẵng",
+            "type": "Chi nhánh",
+            "address": "Số 172 đường Nguyễn Lương Bằng, Phường Hòa Khánh Bắc, Quận Liên Chiểu, TP. Đà Nẵng",
+            "phone": "0236.3738688",
+            "tel": "02363738688",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/Hoi-so.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/esjTuKpymixS23Xn9"
+          },
+          {
+            "stt": 2,
+            "name": "PGD Hòa Khánh - CN Bắc Đà Nẵng",
+            "type": "Phòng giao dịch",
+            "address": "Lô 12 Khu công nghiệp Hòa Khánh, Quận Liên Chiểu, TP. Đà Nẵng",
+            "phone": "0236.3732299",
+            "tel": "02363732299",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/PGD-Phuoc-Dong.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/pJ72JQHagVdXZdEH8"
+          }
+        ]
+      },
+      {
+        "id": "hoi_an",
+        "name": "Chi nhánh Hội An",
+        "province": "Quảng Nam",
+        "offices": [
+          {
+            "stt": 1,
+            "name": "Hội sở CN Hội An",
+            "type": "Chi nhánh",
+            "address": "Số 04 đường Hoàng Diệu, Phường Minh An, TP. Hội An, Quảng Nam",
+            "phone": "0235.3861254",
+            "tel": "02353861254",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/Hoi-so.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/esjTuKpymixS23Xn9"
+          },
+          {
+            "stt": 2,
+            "name": "PGD Cẩm Phô - CN Hội An",
+            "type": "Phòng giao dịch",
+            "address": "Số 234 đường Lý Thường Kiệt, Phường Cẩm Phô, TP. Hội An, Quảng Nam",
+            "phone": "0235.3916789",
+            "tel": "02353916789",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/PGD-Trang-Bang.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/skkUhLc3XBNnEqsu7"
+          }
+        ]
+      },
+      {
+        "id": "ha_noi",
+        "name": "Chi nhánh TP. Hà Nội",
+        "province": "Hà Nội",
+        "offices": [
+          {
+            "stt": 1,
+            "name": "Hội sở CN TP. Hà Nội",
+            "type": "Chi nhánh",
+            "address": "Số 182 đường Quán Thánh, Phường Quán Thánh, Quận Ba Đình, TP. Hà Nội",
+            "phone": "024.38294470",
+            "tel": "02438294470",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/Hoi-so.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/esjTuKpymixS23Xn9"
+          }
+        ]
+      },
+      {
+        "id": "hcm",
+        "name": "Chi nhánh TP. Hồ Chí Minh",
+        "province": "TP. Hồ Chí Minh",
+        "offices": [
+          {
+            "stt": 1,
+            "name": "Hội sở CN TP. Hồ Chí Minh",
+            "type": "Chi nhánh",
+            "address": "Số 79A đường Hàm Nghi, Phường Nguyễn Thái Bình, Quận 1, TP. Hồ Chí Minh",
+            "phone": "028.38293992",
+            "tel": "02838293992",
+            "imageUrl": "https://raw.githubusercontent.com/giadinhbanker/File_anh/refs/heads/main/Hoi-so.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/esjTuKpymixS23Xn9"
+          }
+        ]
+      }
+    ]
+  }
+}
